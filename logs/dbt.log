@@ -28,3 +28,45 @@ Happy modeling!
 [0m18:55:20.742867 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107992c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d4d6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10797b790>]}
 [0m18:55:20.743271 [debug] [MainThread]: Flushing usage events
 [0m18:55:21.580308 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:33:57.229302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d181a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f4fb10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f4f9d0>]}
+
+
+============================== 21:33:57.231757 | f127dbf8-f1f0-414f-9660-4397928118fe ==============================
+[0m21:33:57.231757 [info ] [MainThread]: Running with dbt=1.10.15
+[0m21:33:57.232033 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'use_experimental_parser': 'False', 'profiles_dir': '/Users/Farsid/.dbt', 'log_path': 'logs', 'indirect_selection': 'eager', 'partial_parse': 'True', 'target_path': 'None', 'quiet': 'False', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'debug': 'False', 'warn_error': 'None', 'printer_width': '80', 'empty': 'None', 'version_check': 'True', 'no_print': 'None', 'fail_fast': 'False', 'cache_selected_only': 'False'}
+[0m21:33:57.239483 [info ] [MainThread]: dbt version: 1.10.15
+[0m21:33:57.239655 [info ] [MainThread]: python version: 3.13.5
+[0m21:33:57.239768 [info ] [MainThread]: python path: /Users/Farsid/Documents/Power_BI_2/dbt-env/bin/python3
+[0m21:33:57.239862 [info ] [MainThread]: os info: macOS-15.6-arm64-arm-64bit-Mach-O
+[0m21:33:57.282366 [info ] [MainThread]: Using profiles dir at /Users/Farsid/.dbt
+[0m21:33:57.282578 [info ] [MainThread]: Using profiles.yml file at /Users/Farsid/.dbt/profiles.yml
+[0m21:33:57.282686 [info ] [MainThread]: Using dbt_project.yml file at /Users/Farsid/Documents/Power_BI_2/dbt_project.yml
+[0m21:33:57.282816 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:33:57.284061 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.07969871, "process_in_blocks": "0", "process_kernel_time": 0.104305, "process_mem_max_rss": "114229248", "process_out_blocks": "0", "process_user_time": 0.557843}
+[0m21:33:57.284226 [debug] [MainThread]: Command `dbt debug` failed at 21:33:57.284190 after 0.08 seconds
+[0m21:33:57.284344 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1084f5220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1084e2f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108518270>]}
+[0m21:33:57.284468 [debug] [MainThread]: Flushing usage events
+[0m21:33:57.857894 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:45:19.895678 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1108201a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111a4fb10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111a4f9d0>]}
+
+
+============================== 21:45:19.898037 | e147b281-d21e-4c18-9ffa-bb953e5e0daa ==============================
+[0m21:45:19.898037 [info ] [MainThread]: Running with dbt=1.10.15
+[0m21:45:19.898290 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'use_colors': 'True', 'static_parser': 'True', 'empty': 'None', 'no_print': 'None', 'log_path': 'logs', 'printer_width': '80', 'partial_parse': 'True', 'quiet': 'False', 'log_format': 'default', 'warn_error': 'None', 'log_cache_events': 'False', 'profiles_dir': '/Users/Farsid/.dbt', 'introspect': 'True', 'write_json': 'True', 'debug': 'False', 'send_anonymous_usage_stats': 'True'}
+[0m21:45:19.905677 [info ] [MainThread]: dbt version: 1.10.15
+[0m21:45:19.905850 [info ] [MainThread]: python version: 3.13.5
+[0m21:45:19.905958 [info ] [MainThread]: python path: /Users/Farsid/Documents/Power_BI_2/dbt-env/bin/python3
+[0m21:45:19.906056 [info ] [MainThread]: os info: macOS-15.6-arm64-arm-64bit-Mach-O
+[0m21:45:19.939501 [info ] [MainThread]: Using profiles dir at /Users/Farsid/.dbt
+[0m21:45:19.939716 [info ] [MainThread]: Using profiles.yml file at /Users/Farsid/.dbt/profiles.yml
+[0m21:45:19.939833 [info ] [MainThread]: Using dbt_project.yml file at /Users/Farsid/Documents/Power_BI_2/dbt_project.yml
+[0m21:45:19.939960 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:45:19.941199 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.070395, "process_in_blocks": "0", "process_kernel_time": 0.083538, "process_mem_max_rss": "113836032", "process_out_blocks": "0", "process_user_time": 0.452889}
+[0m21:45:19.941380 [debug] [MainThread]: Command `dbt debug` failed at 21:45:19.941346 after 0.07 seconds
+[0m21:45:19.941496 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112015220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112002f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112038270>]}
+[0m21:45:19.941621 [debug] [MainThread]: Flushing usage events
+[0m21:45:20.477363 [debug] [MainThread]: An error was encountered while trying to flush usage events
